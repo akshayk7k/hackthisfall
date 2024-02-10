@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  ;
+}
+
+body {
+  background-color: rgb(7, 3, 53);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(8, 1, 81);
+
+}
+
+nav>div img {
+  width: 60px;
+  height: 55px;
+  margin-left: -495px;
+
+}
+
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(143, 143, 255);
+  font-size: 1.035rem;
+  font-weight: bold;
+}
+
+.left {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
+
+main hr {
+  border: 0;
+  height: 3px;
+  background-color: rgb(148, 148, 240);
+  margin: 80px;
+
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.firstsection>div {
+  width: 30%;
+}
+
+
+.leftsection {
+  font-size: 2em;
+}
+
+.leftsection .button {
+  padding: 70px 0;
+  list-style: none;
+}
+
+
+.leftsection .button .btn {
+  margin: 10px;
+  padding: 12PX;
+  background-color:#06023b;
+  border: 3px solid black;
+  color: white;
+  border-radius: 7px;
+
+}
+
+.leftsection .button .btn a{
+  text-decoration: none;
+  color:white;
+}
+
+.button .btn:hover{
+  background-color:#4738f1;
+  border: 3px solid black;
+}
+
+
+.rightsection img {
+  width: 125%;
+}
+
+.rightsection img{
+  margin: -65px;
+  border: 4px solid black ;
+}
+
+
+
+.purple {
+  color: rgb(232, 107, 232);
+}
+
+.text-gray {
+  color: rgb(190, 179, 179);
+}
+
+    
+#element {
+  color: rgb(232, 107, 232);
+}
+
+
+.secondsection {
+  max-width: 70vw;
+  margin: auto; 
+  height: 80vh;
+}
+
+.h1 {
+  font-size: 1.7rem;
+}
+
+.secondsection .box {
+  border: 0;
+  background-color: white;
+  height: 2px;
+  margin: 125px -110px;
+  display: flex;
+}
+
+.secondsection .box .verticle {
+  height: 100px;
+  width: 2px;
+  margin: 0px 107px;
+  background-color: white;
+
+}
+
+.box .verticle img {
+  width: 50px;
+  position: relative;
+  top: -70px;
+  left: -25px;
+  height: 50px;
+}
+
+
+.verticle .verticle-title {
+  position: relative;
+  top: 70px;
+  left: -40px;
+  width: 150px;
+}
+
+.verticle .verticle-description {
+  position: relative;
+  top: 80px;
+  left: -40px;
+  width: 150px;
+  font-size: 10px;
+}
+
+
+footer {
+  background-color: rgb(15 13 33);
+
+}
+
+
+.footer>div {
+  width: 120px;
+}
+
+.footer div ul li {
+  list-style: none;
+  margin: 6px 0px;
+}
+
+
+
+.footer {
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+
+}
+
+.right {
+  text-align: center;
+  color: gray;
+
+}
+
+
+
+section {
+	flex: 1;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+section:last-child {
+	margin-right: 0;
+}
+
+.item-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item {
+	background-color: #FFFFFF
+}
+
+.item-container img{
+	display: inline-block;
+    width: 260px;
+    height: 280px;
+}
+
+.item{
+	margin: 25px;
+	padding: 0px;
+}
+
+.price{
+	text-align: center;
+} 
+
+.item .price,
+.item h3.price {
+    color: black;
+}
+
+
+
+.btn {
+	margin: 10px;
+	padding: 12PX;
+	background-color:#06023b;
+	border: 3px solid black;
+	color: white;
+	border-radius: 7px;
+  
+  }
+  
+.btn a{
+	text-decoration: none;
+	color:white;
+  }
+  
+.btn:hover{
+	background-color:#4738f1;
+	border: 3px solid black;
+  }
+  
+
+
+
+
+

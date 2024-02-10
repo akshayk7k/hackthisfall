@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-color: #06023b;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Service Section Styles */
+#services {
+    padding: 20px;
+}
+
+#services h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+.service {
+    background-color: #497dff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 4px solid black;
+}
+
+.service h3 {
+    margin-top: 0;
+}
